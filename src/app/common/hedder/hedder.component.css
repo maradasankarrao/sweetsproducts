@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.img1{
+    height: 113px;
+width: 94%;
+}
+.logo{
+    background-color: blue;
+}
+.name{
+  font-size: 42px;
+  font-family: 'Permanent Marker', cursive;
+  color:floralwhite;
+margin: 23px 0px 0px 0px
+}

@@ -1,0 +1,13 @@
+.p1{
+    background-color: dimgrey;
+}
+/* .foouter{
+
+} */
+.foouter li{
+ list-style: none;
+ color: #ffffff;
+ text-align: center;
+ line-height: 50px;
+ font-weight: 600;
+}

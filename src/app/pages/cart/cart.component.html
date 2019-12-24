@@ -1,0 +1,49 @@
+<div class="row">
+  <h1 class="col-12 titelcart">YOUR SELECETED ITEMS IN SWEETS</h1>
+</div>
+<div class="container-fluied cart">
+<div class="container">
+  <table class="table  back">
+    <thead>
+      <tr>
+        <th scope="col">ITEM</th>
+        <th scope="col">NAME</th>
+        <th>QUANTITY</th>
+        <th scope="col">PRICE</th>
+        <th scope="col">DISCOUNT</th>
+        <th scope="col">DISCOUNTPRICE</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let m of cartlist">
+        <td><img src="{{m.image}}"class="card-img-top ss"></td>
+        <td>{{m.name}}</td>
+        <td>
+            <button class="btn btn-primary btn-sm" (click)="increaseQuanity(m.id)" >+</button>
+            <span class="pt-1 m-3 num bg-white">{{m.quantity}}</span>
+            <button class="btn btn-primary btn-sm" (click)="decreaseQuanity(m.id)">-</button>
+        </td>
+        <td>Rs: {{m.price*m.quantity}}</td>
+        <td>{{m.discount}}% for KG</td>
+        <td>Rs: {{(m.price*(100-m.discount)/100)*m.quantity}}</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><span class="sh">shoping-alltexs:</span></td>
+        <td>Rs: 30</td>
+      </tr>
+      <tr class="roo">
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>subtTotal:</td>
+        <td><span class="total">Rs: {{total+30}}</span></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+</div>

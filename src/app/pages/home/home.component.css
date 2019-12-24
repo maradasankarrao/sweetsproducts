@@ -1,0 +1,47 @@
+/* font-family: 'BioRhyme', serif; */
+.first{
+    font-family: 'BioRhyme', serif;
+    text-align: center;
+    margin: 171px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    font-size: 40px;
+    color: darkred;
+}
+.first-sec{
+    background-image: Url(/assets/images/mm.jpg);
+    height: 380px;
+background-size: cover;
+}
+.f1{
+    border-top: 3px solid;
+    padding: 20px 0px 49px 0px;
+    margin: 13px 25px 12px 20px;
+}
+.f2{
+    border-top: 3px solid;
+padding: 20px 0px 49px 0px;
+margin: 13px 25px 12px 20px;
+
+}
+.f3{
+    border-top: 3px solid;
+    border-bottom: 3px solid;
+padding: 20px 0px 49px 0px;
+margin: 13px 25px 12px 20px;
+}
+.sa{
+    font-size: 18px;
+padding: 0px 0px 0px 4px;
+}
+.para{
+    font-family: 'BioRhyme', serif;
+    line-height: 25px;
+}
+.head{
+    font-weight: bold;
+
+}
+.para1{
+    margin: 29px 13px;
+
+}

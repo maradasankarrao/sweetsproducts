@@ -1,0 +1,38 @@
+.num{
+    width: 20px;
+}
+td{
+    text-align: center;
+}
+th{
+    text-align:center;
+    color: coral;
+}
+.sh{
+    color: crimson;
+}
+.total{
+    color: deeppink;
+}
+.roo{
+    background-color: greenyellow;
+}
+.thm{
+    border-left: ivory;
+}
+.titelcart{
+    text-align: center;
+    background-color: lightgoldenrodyellow;
+    color: magenta;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: green;
+}
+.cart{
+    background-color: magenta;
+}
+.back{
+    background-color: mintcream;
+}
+.ss{
+    height: 83px;
+}

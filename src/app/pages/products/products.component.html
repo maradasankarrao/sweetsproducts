@@ -1,0 +1,21 @@
+<!-- <p>products works!</p> -->
+<link href="https://fonts.googleapis.com/css?family=BioRhyme:200,300,400,700,800&display=swap&subset=latin-ext" rel="stylesheet">
+<div class="container-foulid back1">
+    <div class="container back">
+        <div class="row">
+           <h3 class="a">selected your choies in below items list</h3>
+        </div>  
+
+        <div class="row">
+            <div class=" col-2 bg-light card pp" *ngFor="let s of productsloop">
+                <div>
+                <img src="{{s.image}}"class="card-img-top ss">
+            </div>
+            <p class="s2">sweet name is<span class="s1">{{s.name}}</span></p>
+                <p>price:<del class="ppp">{{s.price}}</del><span>{{(s.price*(100-s.discount))/100}}</span></p>
+                <p class="s3">{{s.discount}}%<span class="dis">discount</span></p>
+                <button class="btn btn-primary b1" (click)="addcartitem(s)">add cart</button>
+            </div>
+        </div>
+    </div>
+</div>

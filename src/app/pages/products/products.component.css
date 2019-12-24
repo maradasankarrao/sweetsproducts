@@ -1,0 +1,68 @@
+img{
+    max-width: 100%;
+    height: auto;
+}
+.ss{
+    height: 140px;
+    margin-top: 6px;
+}
+.a{
+    text-align: center;
+    color:pink;
+    margin: 12px 0px 22px 145px;
+    font-family: 'BioRhyme', serif;
+    text-transform: uppercase;
+color:
+aqua;
+text-decoration: underline dashed
+chartreuse;
+}
+.pp{
+    margin:12px 40px;
+}
+.s1{
+    color:
+    darkturquoise;
+    
+    font-weight: bold;
+    
+    margin-left: 10px;
+}
+.ppp{
+    color:red;
+    font-weight: bold;
+    margin: 0px 6px;
+}
+.dis{
+    color:
+    darkgoldenrod;
+    
+    margin-left: 6px;
+}
+.s2{
+    font-size: 18px;
+
+margin: 0px 0px 0px 2px;
+}
+.s3{
+    color:
+    fuchsia;
+    
+    font-size: 19px;
+}
+.b1{
+    width: 112px;
+    margin: 0px 0px 12px 8px; 
+    text-transform: uppercase;
+}
+.b1:hover{
+    color: firebrick;
+}
+.back{
+    background-color: brown;
+    border-radius: 11px;
+}
+.back1{
+    background-color:chartreuse;
+    padding-top: 30px;
+}
